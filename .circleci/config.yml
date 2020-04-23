@@ -28,15 +28,6 @@ workflows:
   build-test-package:
     jobs:
       - build
-      - integration-tests:
-          requires:
-            - ci-build
-      - sast:
-          requires:
-            - ci-build
-      - pack:
-          requires:
-            - ci-build
           filters:
             branches:
               only:
