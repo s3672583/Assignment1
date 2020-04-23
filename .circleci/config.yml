@@ -6,6 +6,7 @@ commands:
           name: Install dependencies
           command: |
             npm install
+            
 jobs:
   build:
     docker:
@@ -20,9 +21,6 @@ jobs:
           command: |
             cd src
             npm run unit-test
-
-    steps:
-      - checkout
 
 workflows:
   version: 2
