@@ -8,7 +8,7 @@ commands:
             npm install
 
 jobs:
-  ci-build:
+  build:
     docker:
       - image: circleci/node:lts
     environment:
@@ -21,6 +21,7 @@ jobs:
           command: |
             cd src
             npm run unit-test
+            mkdir -p test-output
 
 workflows:
   version: 2
