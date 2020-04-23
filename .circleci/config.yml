@@ -28,7 +28,4 @@ workflows:
   build-test-package:
     jobs:
       - build
-          filters:
-            branches:
-              only:
-                - master
+            
