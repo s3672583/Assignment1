@@ -1,8 +1,25 @@
 version: 2.1
+commands:
+  install_deps:
+    steps:
+      - run:
+          name: Install dependencies
+          command: |
+            npm install
 jobs:
   build:
     docker:
       - image: circleci/node:lts
+    environment:
+      NODE_ENV_OUTPUT_DIR: test-output
+    steps:
+      - checkout 
+      - install_deps
+      - run:
+          name: run tests
+          command: |
+            cd src
+            npm run unit-test
 
     steps:
       - checkout
