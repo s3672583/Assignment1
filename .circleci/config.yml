@@ -6,9 +6,9 @@ commands:
           name: Install dependencies
           command: |
             npm install
-            
+
 jobs:
-  build:
+  ci-build:
     docker:
       - image: circleci/node:lts
     environment:
