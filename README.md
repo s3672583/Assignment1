@@ -70,7 +70,7 @@ https://www.qawolf.com/
 
 TODO: Set up e2e test environment and run the e2e tests
 
-SS1 (Git)
+![](Images/git%20ss.png)
 
 This is a screen shot of my github account which shows the repository named Assignemnt 1 in which I have created all my branches and the project. Github is one of the element which we have used for this project as recommended by our experienced staff. This is a wide used software and is very easy to use.
 
