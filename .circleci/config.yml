@@ -56,6 +56,17 @@ jobs:
 
       - store_test_results:
           path: test-output
+
+  pack:
+    docker:
+      - image: circleci/node:lts
+    environment:
+      NODE_ENV: production
+    steps:
+      - checkout
+      - install_deps
+      - store_artifacts:
+          path: ./
   
 
 workflows:
@@ -66,4 +77,10 @@ workflows:
       - integration-tests:
           requires:
             - build
-            
+      - pack:
+          requires:
+            - integration-tests
+          filters:
+            branches:
+              only:
+                - master
