@@ -97,10 +97,10 @@ Your code will be more consistent.
 
 This ScreenShot shows the successfull execution of code coverage. This is basically an important step to execute. It mostly covers around 80% of the code which have been tested.
 
-SS6 (Failing Scenario)
+![](Images/failing%20ss.png)
 
 This screenshot shows a failing scenario. I did a small change in a index.test.js which is in unit directory under test. I changed .OK to .not.OK and the test failed.
 
-SS7 (Generating artefacts and adding filters)
+![](Images/Images/corrected%20failing.png.png)
 
 This screenshot is a succesful execution of adding artefacts and filters.  
