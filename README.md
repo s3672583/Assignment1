@@ -70,6 +70,37 @@ https://www.qawolf.com/
 
 TODO: Set up e2e test environment and run the e2e tests
 
-![git ss](https://user-images.githubusercontent.com/42563139/80213698-2fc5f280-8657-11ea-8472-6742d8629fde.png)
+SS1 (Git)
 
 This is a screen shot of my github account which shows the repository named Assignemnt 1 in which I have created all my branches and the project. Github is one of the element which we have used for this project as recommended by our experienced staff. This is a wide used software and is very easy to use.
+
+SS2 (Circle CI)
+
+This screenshot shows the execution of circle ci with the URL visble on the top which shows that it is linked to my github account with the repository named Assignment 1.
+
+SS3 (Unit Testing)
+
+This Screenshot shows the sccessfull execution of unit tests in circle ci. We have used mocha to complete unit tests. The reason behind using mocha is We like frameworks that are easy to use, open-source, flexible and have a great support community.
+
+SS3 (Integration Testing)
+
+This Screenshot shows the sccessfull execution of integration tests in circle ci. in this also we have used mocha to complete integration tests. The reason behind using mocha is We like frameworks that are easy to use, open-source, flexible and have a great support community.
+
+SS4 (Lint)
+
+This Screenshot shows the sccessfull execution of linting in circle ci. Here are some benefits of using lint eslint in our project,
+You will find bugs and errors before they happen.
+You will spend less time testing new features.
+Your code will be more consistent.
+
+SS5 (Code Coverage)
+
+This ScreenShot shows the successfull execution of code coverage. This is basically an important step to execute. It mostly covers around 80% of the code which have been tested.
+
+SS6 (Failing Scenario)
+
+This screenshot shows a failing scenario. I did a small change in a index.test.js which is in unit directory under test. I changed .OK to .not.OK and the test failed.
+
+SS7 (Generating artefacts and adding filters)
+
+This screenshot is a succesful execution of adding artefacts and filters.  
