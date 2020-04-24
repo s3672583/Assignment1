@@ -24,6 +24,12 @@ jobs:
             npm run test-unit
 
       - run:
+          name: eslint
+          command: |
+            cd src
+            npm run test-lint
+
+      - run:
           name: Validate Coverage
           command: |
             bash <(curl -s https://codecov.io/bash)
