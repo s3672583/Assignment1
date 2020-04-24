@@ -69,3 +69,7 @@ Set the environment variable `QAW_HEADLESS` to true to run the e2e in headless m
 https://www.qawolf.com/
 
 TODO: Set up e2e test environment and run the e2e tests
+
+![git ss](https://user-images.githubusercontent.com/42563139/80213698-2fc5f280-8657-11ea-8472-6742d8629fde.png)
+
+This is a screen shot of my github account which shows the repository named Assignemnt 1 in which I have created all my branches and the project. Github is one of the element which we have used for this project as recommended by our experienced staff. This is a wide used software and is very easy to use.
