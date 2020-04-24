@@ -82,18 +82,18 @@ This screenshot shows the execution of circle ci with the URL visble on the top 
 
 This Screenshot shows the sccessfull execution of unit tests in circle ci. We have used mocha to complete unit tests. The reason behind using mocha is We like frameworks that are easy to use, open-source, flexible and have a great support community.
 
-SS3 (Integration Testing)
+![](Images/Integration%20ss.png)
 
 This Screenshot shows the sccessfull execution of integration tests in circle ci. in this also we have used mocha to complete integration tests. The reason behind using mocha is We like frameworks that are easy to use, open-source, flexible and have a great support community.
 
-SS4 (Lint)
+![](Images/lint%20ss.png)
 
 This Screenshot shows the sccessfull execution of linting in circle ci. Here are some benefits of using lint eslint in our project,
 You will find bugs and errors before they happen.
 You will spend less time testing new features.
 Your code will be more consistent.
 
-SS5 (Code Coverage)
+![](Images/Images/Code%20coverage%20SS.png.png)
 
 This ScreenShot shows the successfull execution of code coverage. This is basically an important step to execute. It mostly covers around 80% of the code which have been tested.
 
