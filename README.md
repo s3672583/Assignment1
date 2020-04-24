@@ -74,11 +74,11 @@ TODO: Set up e2e test environment and run the e2e tests
 
 This is a screen shot of my github account which shows the repository named Assignemnt 1 in which I have created all my branches and the project. Github is one of the element which we have used for this project as recommended by our experienced staff. This is a wide used software and is very easy to use.
 
-SS2 (Circle CI)
+![](Images/unit%20test%20screen%20shot.png)
 
 This screenshot shows the execution of circle ci with the URL visble on the top which shows that it is linked to my github account with the repository named Assignment 1.
 
-SS3 (Unit Testing)
+![](Images/unit%20test%20screen%20shot.png)
 
 This Screenshot shows the sccessfull execution of unit tests in circle ci. We have used mocha to complete unit tests. The reason behind using mocha is We like frameworks that are easy to use, open-source, flexible and have a great support community.
 
