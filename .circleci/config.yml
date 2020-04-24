@@ -26,7 +26,7 @@ jobs:
       - run:
           name: Validate Coverage
           command: |
-            npm run test-coverage
+            bash <(curl -s https://codecov.io/bash)
   
 
 workflows:
