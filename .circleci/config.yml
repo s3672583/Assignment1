@@ -21,7 +21,6 @@ jobs:
           command: |
             cd src
             npm run unit-test
-            mkdir -p test-output
 
 workflows:
   version: 2
