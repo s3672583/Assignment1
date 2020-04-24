@@ -8,7 +8,7 @@
     "test-lint": "./node_modules/.bin/eslint ./ --format junit --output-file ./reports/eslint/esl",
     "test-unit": "cross-env NODE_ENV=unit nyc mocha test/unit --reporter mocha-junit-reporter",
     "test-coverage": "cross-env NODE_ENV=unit nyc report --reporter=html --reporter=text --reporter=lcovonly --report-dir=test/coverage;",
-    "test-integration": "cross-env DB_USERNAME=postgres DB_PASSWORD=password DB_NAME=servian DB_HOSTNAME=localhost NODE_ENV=integration ",
+    "test-integration": "cross-env DB_USERNAME=postgres DB_PASSWORD=password DB_NAME=servian DB_HOSTNAME=localhost NODE_ENV=integration cross-env NODE_ENV=unit nyc mocha test/integration --reporter mocha-junit-reporter",
     "test-e2e": "cross-env NODE_ENV=e2e DB_USERNAME=postgres DB_PASSWORD=password DB_NAME=servian"
   },
   "dependencies": {
