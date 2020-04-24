@@ -65,6 +65,9 @@ jobs:
     steps:
       - checkout
       - install_deps
+      - run:
+        mkdir -p dist
+        zip -r dist/dist.zip <files> 
       - store_artifacts:
           path: ./
   
