@@ -20,7 +20,7 @@ jobs:
           name: run tests
           command: |
             cd src
-            npm run unit-test
+            npm run test-unit
 
 workflows:
   version: 2
