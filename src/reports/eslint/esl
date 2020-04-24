@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="C:\Users\Ridz\Assignment1\src\app.js">
+<testcase time="0" name="C:\Users\Ridz\Assignment1\src\app.js" classname="app" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="C:\Users\Ridz\Assignment1\src\config\config.js">
+<testcase time="0" name="C:\Users\Ridz\Assignment1\src\config\config.js" classname="config" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="C:\Users\Ridz\Assignment1\src\models\index.js">
+<testcase time="0" name="C:\Users\Ridz\Assignment1\src\models\index.js" classname="index" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="C:\Users\Ridz\Assignment1\src\models\task.js">
+<testcase time="0" name="C:\Users\Ridz\Assignment1\src\models\task.js" classname="task" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="C:\Users\Ridz\Assignment1\src\models\user.js">
+<testcase time="0" name="C:\Users\Ridz\Assignment1\src\models\user.js" classname="user" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="C:\Users\Ridz\Assignment1\src\routes\index.js">
+<testcase time="0" name="C:\Users\Ridz\Assignment1\src\routes\index.js" classname="index" />
+</testsuite>
+<testsuite package="org.eslint" time="0" tests="1" errors="0" name="C:\Users\Ridz\Assignment1\src\routes\users.js">
+<testcase time="0" name="C:\Users\Ridz\Assignment1\src\routes\users.js" classname="users" />
+</testsuite>
+</testsuites>
